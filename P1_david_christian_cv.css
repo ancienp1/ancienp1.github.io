@@ -1,11 +1,26 @@
+@font-face 
+{
+    font-family: 'sinkin_sans200_x_light';
+    src: url('font/SinkinSans-200XLight-webfont.eot');
+    src: url('font/SinkinSans-200XLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/SinkinSans-200XLight-webfont.woff2') format('woff2'),
+         url('font/SinkinSans-200XLight-webfont.woff') format('woff'),
+         url('font/SinkinSans-200XLight-webfont.ttf') format('truetype'),
+         url('font/SinkinSans-200XLight-webfont.svg#sinkin_sans200_x_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 #wrapper
 {
 	width: 1000px;
 	margin: auto;
 	display: grid;
-	grid-template-areas: "personal professional"
+	grid-template-areas: "personal professional";
 }
-
+*
+{
+	font-family: 'sinkin_sans200_x_light', 'comic sans ms', sans-serif;
+}
 /* la colonne de gauche */
 
 #personal
