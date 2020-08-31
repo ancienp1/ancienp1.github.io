@@ -1,0 +1,278 @@
+#wrapper
+{
+	width: 1000px;
+	margin: auto;
+	display: grid;
+	grid-template-areas: "personal professional"
+}
+
+/* la colonne de gauche */
+
+#personal
+{
+	background: linear-gradient(#2196F3, #FFEB3B);
+	width: 300px;
+	text-align: center;
+}
+#personal h2
+{
+	background-color: #404040;
+	color: #26C6DA;
+	text-transform: uppercase;
+}
+#personal span
+{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#one
+{
+	height: 200px;
+}
+#moi
+{
+	border-radius: 50%;
+	margin-top: 35px;
+}
+#two
+{
+	
+}
+#two i
+{
+	float: left;
+	font-size: 2em;
+	margin-left: 15px;
+}
+#house, #phone, #mail
+{
+	color: white;
+}
+#three
+{
+
+}
+#three p
+{
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-bottom: 30px;
+}
+#four
+{
+	height: 240px;
+}
+#four i
+{
+	font-size: 2.5em;
+	justify-content: 
+}
+.icones
+{
+	display: flex;
+	justify-content: space-around;
+}
+#instagram
+{
+	color: #9B49BA;
+}
+#instagram:visited
+{
+	color: #9B49BA;
+}
+#facebook
+{
+	color: #3B5794;
+}
+#facebook:visited
+{
+	color: #3B5794;
+}
+#github
+{
+	color: black
+}
+#github:visited
+{
+	color: black
+}
+#linkedin
+{
+	color: #1377B7;
+}
+#linkedin:visited
+{
+	color: #1377B7;
+}
+#five i
+{
+	font-size: 2.5em;
+}
+#manette
+{
+	color: #B4B4CE;
+}
+#tipi
+{
+	color: #515336;
+}
+
+/* contenu pricipal */
+
+
+#professional
+{
+	margin-left: 30px;
+}
+header
+{
+	height: 200px;
+}
+header h1, header h3
+{
+	text-align: left;
+	margin-left: 50px;
+}
+h1
+{
+	text-transform: uppercase;
+	font-size: 4em;
+	margin-bottom: 0px;
+}
+h3
+{
+	font-size: 2em;
+	margin-top: 0px;
+	margin-bottom: 60px;
+}
+#name
+{
+	color: #26C6DA;
+}
+#half
+{
+	border-bottom: 2px solid #26C6DA;
+}
+
+/* Icones des titre */
+
+#box, #case, #handshake
+{
+	font-size: 1.5em;
+	margin-right: 15px;
+	color: #26C6DA;
+}
+#professional h2
+{
+	text-transform: uppercase;
+	border-bottom: 2px solid #26C6DA;
+}
+ul
+{
+	display: grid;
+	grid-template-areas: "1 2";
+	list-style-type: none;
+}
+ul li
+{
+	text-align: center;
+}
+ul p
+{
+	margin: 7px;
+}
+#uno, #dos, #tres, #cuatro, #cinco, #seis
+{
+	float: left;
+	font-size: 15px;
+	color: #26C6DA;
+}
+
+/* icones écoles */
+#OC
+{
+	width: 0.9em;
+}
+#EBS
+{
+	width: 1em;
+}
+#openclassrooms
+{
+	font-family: Montserrat, sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	color: #7450EC;
+}
+#bartender
+{
+	font-family: "Source Sans Pro", sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	color: #DD2727;
+}
+.details
+{
+	font-size: small;
+}
+#lolita
+{
+	text-transform: uppercase;
+	color: #bd2867;
+	font-weight: bold;
+	font-size: 15px;
+}
+.la_maison
+{
+	text-transform: uppercase;
+	color: #E40238;
+	font-weight: bold;
+	font-size: 15px;
+}
+#le_nautilus
+{
+	text-transform: uppercase;
+	color: #158466;
+	font-weight: bold;
+	font-size: 15px;
+}
+#small_container
+{
+	display: flex;
+	justify-content: space-around;
+}
+#recommandations span
+{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+@media all and (max-width: 500px)
+{
+	#wrapper
+	{
+		width: 100%;
+		grid-template-areas: "professional"
+							 "personal"
+	}
+	#personal
+	{
+		width: unset;
+	}
+	.icones
+	{
+		height: 60px;
+	}
+	#four
+	{
+		height: unset;
+	}
+	#professional
+	{
+		margin-top: 15px;
+		border-top: 2px solid #26C6DA;
+		margin-left: unset;
+	}
+}
