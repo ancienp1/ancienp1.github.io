@@ -281,6 +281,7 @@ ul p
 {
 	#wrapper
 	{
+		margin: none;
 		width: 100%;
 		grid-template-areas: "professional"
 							 "personal";
