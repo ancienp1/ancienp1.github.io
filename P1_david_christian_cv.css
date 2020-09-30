@@ -213,6 +213,19 @@ ul p
 {
 	width: 1em;
 }
+#cloud_logo
+{
+	color: #266AB5;
+	font-size: 20px;
+}
+#cloud-campus
+{
+	font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	color: #266AB5;
+}
 #openclassrooms
 {
 	font-family: Montserrat, sans-serif;
@@ -270,7 +283,7 @@ ul p
 	{
 		width: 100%;
 		grid-template-areas: "professional"
-							 "personal"
+							 "personal";
 	}
 	#personal
 	{
